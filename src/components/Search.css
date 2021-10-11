@@ -1,0 +1,64 @@
+/* .App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+  } */
+  
+  /* .user {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+  } */
+  
+  .paginationBttns {
+      /* position: absolute; */
+      /* background: rgb(117, 117, 117); */
+      bottom: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    margin-top: 4px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #4f4e86;
+    color: #090911;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: gray;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: rgb(250, 185, 7);
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    /* background-color: grey; */
+  }
+  .Previous{
+      border: none;
+      
+
+  }

@@ -1,0 +1,36 @@
+.favSuccess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: "flex";
+    color: rgb(28, 172, 93);
+    margin-bottom: 2px;
+}
+
+.msg{
+    text-align:"center";
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 24px;
+     font-weight: 20px;
+     margin-left: 10px;
+     color: #707070;
+}
+
+
+@media screen and (max-width: 768px) {
+    .msg  {
+     display: inline-block;
+    }
+  }
+
+
+.saved{
+    text-align:"center";
+    align-items: center;
+    font-family: 'Segoe UI';
+    font-weight: 20px;
+    justify-content: center;
+    color: #ffff;
+}

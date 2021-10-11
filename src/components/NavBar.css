@@ -1,0 +1,43 @@
+body{
+    opacity: 1;
+    
+}
+
+.root{
+    display: flex;
+  }
+  
+  .d-flex{
+    position: relative;
+    left: 70px;
+    width: 400px;
+    opacity: 1;
+  }
+  
+  .container1{
+    margin-right: 10px;
+    width: 150px;
+    padding: 5px;
+    
+  }
+  
+  #dropdown-basic{
+    margin-right: 10px;
+  }
+  #test{
+      margin-right: 10px;
+  }
+  
+  .root2{
+    background-color: #FAA81D;
+    color: white;
+    opacity: 0.5;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  .navbar brand{
+    position: relative;
+    left: 100px;
+  }
+  

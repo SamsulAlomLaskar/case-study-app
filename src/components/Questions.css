@@ -1,0 +1,69 @@
+#header {
+color: #086288;
+/* margin-left: 1px; */
+margin-bottom: 23px;
+top: 197px;
+left: 160px;
+width: 371px;
+height: 40px;
+text-align: left;
+/* font: normal normal bold 40px/58px Sitka Banner; */
+font: normal normal bold 27px/38px Sitka Banner;
+letter-spacing: 0px;
+opacity: 1;
+}
+
+.g-2{
+    margin-top: 2px;
+}
+/* 
+.m-4{
+    background: #FAA81D 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+} */
+.button{
+    /* top: 642px;
+left: 1521px; */
+/* width: 172px; */
+font-size: 15px;
+margin-top: 64px;
+color: #fff;
+/* height: 65px; */
+display: flex;
+align-items: flex-end;
+background: #FAA81D 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+}
+/* @media only screen and (max-width: 989px) {
+    .button {
+      align-items: flex-end;
+    }
+  }
+   */
+
+
+@media screen and (max-width: 768px) {
+    .button  {
+     display: inline-block;
+     margin-top: 10px;
+     z-index: 4;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 993px){
+  .button {
+    margin-left: 540px;
+    margin-top: 20px;
+  }
+}
+
+.errmsg{
+  color: red;
+  margin-right: 20px;
+  font-size: 12px;
+}
+i{
+  margin-bottom: 3px;
+}
